@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One Piece Game</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>One Piece Treasure Hunt</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<section>
-    <div class="game-container">
+    <div id="gameContainer">
+        <!-- Personnage principal (Luffy) -->
         <div id="luffy"></div>
-        <div id="obstacle"></div>
-        <p id="game-over" style="display: none;">Game Over! Press 'R' to Restart</p>
-        <p id="score">Score: 0</p>
+
+        <!-- Zone où apparaissent les trésors -->
+        <div id="treasure"></div>
+
+        <!-- Zone où apparaissent les ennemis (marines ou pirates) -->
+        <div id="enemy"></div>
     </div>
-</section>
-    <script src="script.js"></script>
+
+    <!-- Score et infos -->
+    <div id="scoreBoard">
+        <h1>Score : <span id="score">0</span></h1>
+        <button id="startButton">Commencer le jeu</button>
+        <p id="gameOverText" style="display: none;">Game Over ! Cliquez sur "Commencer" pour rejouer.</p>
+    </div>
+
+    <script src="script2.js"></script>
 </body>
 </html>

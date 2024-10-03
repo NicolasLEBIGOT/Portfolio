@@ -1,0 +1,72 @@
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+/* Terrain de jeu */
+#gameContainer {
+    width: 800px;
+    height: 600px;
+    margin: 20px auto;
+    position: relative;
+    background-image: url('https://wallpapercave.com/wp/wp9175515.jpg');
+    background-size: cover;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+/* Luffy (personnage principal) */
+#luffy {
+    width: 70px;
+    height: 70px;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b9d67ab2-56fc-4222-bd16-cc76f5bd7f6b/dfceoyk-7e3de4fe-8024-4d76-b551-db7eda0d658e.png/v1/fill/w_1280,h_1699,strp/gear_5_luffy_render_by_notledy_dfceoyk-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTY5OSIsInBhdGgiOiJcL2ZcL2I5ZDY3YWIyLTU2ZmMtNDIyMi1iZDE2LWNjNzZmNWJkN2Y2YlwvZGZjZW95ay03ZTNkZTRmZS04MDI0LTRkNzYtYjU1MS1kYjdlZGEwZDY1OGUucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.RFDYegOsRiAw25-E1watyvEvwzz-rv37OfizofYY4LA');
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Trésors */
+#treasure {
+    width: 70px;
+    height: 70px;
+    background-image: url('https://pngimg.com/uploads/treasure_chest/treasure_chest_PNG97.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Ennemis */
+#enemy {
+    width: 70px;
+    height: 70px;
+    background-image: url('https://static.tvtropes.org/pmwiki/pub/images/sakazuki_anime_concept_art.png'); /* Image de la Marine ou pirates */
+    background-size: cover;
+    position: absolute;
+    top: -100px; /* Ils commenceront en dehors de l'écran */
+}
+
+/* Tableau des scores */
+#scoreBoard {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffdd00;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}

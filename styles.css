@@ -1,0 +1,25 @@
+/* styles.css */
+body {
+    background-color: #87CEEB; /* Ciel bleu */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.game-container {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.luffy {
+    width: 100px; /* Largeur de Luffy */
+    height: 100px; /* Hauteur de Luffy */
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b9d67ab2-56fc-4222-bd16-cc76f5bd7f6b/dfceoyk-7e3de4fe-8024-4d76-b551-db7eda0d658e.png/v1/fill/w_1280,h_1699,strp/gear_5_luffy_render_by_notledy_dfceoyk-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTY5OSIsInBhdGgiOiJcL2ZcL2I5ZDY3YWIyLTU2ZmMtNDIyMi1iZDE2LWNjNzZmNWJkN2Y2YlwvZGZjZW95ay03ZTNkZTRmZS04MDI0LTRkNzYtYjU1MS1kYjdlZGEwZDY1OGUucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.RFDYegOsRiAw25-E1watyvEvwzz-rv37OfizofYY4LA'); /* Remplace par l'URL de ton image */
+    background-size: cover;
+    position: absolute;
+    cursor: pointer;
+}
+
+h1 {
+    color: #fff;
+}
